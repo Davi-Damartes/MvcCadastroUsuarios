@@ -33,12 +33,12 @@
 
     <table class="table" id="table-contatos">
         <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Nome</th>
-                <th scope="col">Email</th>
-                <th scope="col">Telefone</th>
-                <th scope="col"></th>
+            <tr class="text-center">
+                <th scope="col"><h5> #</h5></th>
+                <th scope="col"><h5> Nome</h5></th>
+                <th scope="col"><h5> Email</h5></th>
+                <th scope="col"><h5> Telefone</h5></th>
+                <th class="text-center" scope="col"><h5> Opções</h5></th>
 
             </tr>
         </thead>
@@ -51,19 +51,14 @@
                 {
                     <tr>
                         <th scope="row"></th>
-                        <td>@contato.Nome</td>
-                        <td>@contato.Email</td>
-                        <td>@contato.Telefone</td>
-                        <td>
-                            <div class="btn-group" role="group">
-                                <a role="button" class="btn btn-secondary" asp-route-id="@contato.Id" asp-controller="Contato"
-                                    asp-action="Editar">Editar</a>
-
-
-                                <a role="button" class="btn btn-danger" asp-route-id="@contato.Id" asp-controller="Contato"
-                                    asp-action="ApagarConfirmacao">Excluir</a>
+                        <td class="text-start">@contato.Nome</td>
+                        <td class="text-start">@contato.Email</td>
+                        <td class="text-start">@contato.Telefone</td>
+                        <td class="text-center">
+                            <div class="btn-group" style="margin-right: 25px;">
+                                <a role="button" class="btn btn-secondary shadow-none butao-Editar" asp-route-id="@contato.Id" asp-controller="Contato" asp-action="Editar">Editar</a>
+                                <a role="button" class="btn btn-danger shadow-none" asp-route-id="@contato.Id" asp-controller="Contato" asp-action="ApagarConfirmacao">Excluir</a>
                             </div>
-
                         </td>
                     </tr>
                 }
