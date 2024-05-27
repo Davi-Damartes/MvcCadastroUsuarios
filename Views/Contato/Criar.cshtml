@@ -5,30 +5,29 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Cadastrar novo Contato</h1>
+    <h1 class="display-4">Adicionar novo Contato ao seu Usuário</h1>
 </div>
 
 <form asp-controller="Contato" asp-action="Criar" method="post">
-   @* <div asp-validation-summary="All" class="text-danger"></div> *@
     <div class="mb-4">
-        <label for="nome">Nome</label>
+        <label for="nome"><b>Nome</b></label>
         <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome do Contato">
         @Html.ValidationMessageFor(x => x.Nome)
     </div>
 
     <div class="mb-4">
-        <label for="email">Email</label>
+        <label for="email"><b>Email</b></label>
         <input type="text" asp-for="Email" class="form-control" placeholder="Digite o e-mail de Contato">
-           @Html.ValidationMessageFor(x => x.Email)
+        @Html.ValidationMessageFor(x => x.Email)
     </div>
 
     <div class="mb-4">
-        <label for="telefone">Telefone</label>
+        <label for="telefone"><b>Telefone</b></label>
         <input type="text" asp-for="Telefone" class="form-control" placeholder="Digite o Telefone de Contato">
         @Html.ValidationMessageFor(x => x.Telefone)
     </div>
 
-    <button type="submit" class="btn btn-primary btn-lg ">Adicionar</button>
-    <a class="btn btn-secondary btn-lg " asp-controller="Contato" asp-action="Index" role="button">Voltar</a>
+    <button type="submit" class="btn btn-primary btn-lg">Adicionar</button>
+    <a class="btn btn-secondary btn-lg" asp-controller="Contato" asp-action="Index" role="button">Voltar</a>
 
 </form>
