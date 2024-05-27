@@ -1,4 +1,39 @@
-﻿.butoes-Menu{
+﻿.btn {
     margin-right: 25px;
     border-radius: 15px;
 }
+
+.botao-Principal {
+    margin-right: 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: #b7b390;
+}
+
+.botao-Contato {
+    margin-right: 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: coral;
+}
+
+.botao-Usuario {
+    margin-right: 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: dodgerblue;
+}
+
+.botao-AltSenha {
+    margin-right: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: red;
+}
+
+.botao-Sair {
+    border-radius: 15px;
+    border: none;
+    background-color: red;
+}
+
