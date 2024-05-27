@@ -13,6 +13,7 @@
     </div>
 
 }
+<h2>Enviaremos uma opção de renovação de senha para o seu e-mail!</h2>
 
 
 <form asp-controller="Login" asp-action="EnviarLinkParaRedefinirSenha" method="post">
@@ -28,9 +29,7 @@
         @Html.ValidationMessageFor(model => model.Email)
     </div>
 
-    <button type="submit" class="btn btn-primary btn-block w-100">Redefinir Senha</button>
-    <br>
-    <br>
+    <button type="submit" class="btn btn-primary btn-block w-100 mb-2">Redefinir Senha</button>
     <a class="btn btn-secondary btn-block btn-block w-100" asp-action="Index" asp-controller="Login"
         role="button">Voltar</a>
 
