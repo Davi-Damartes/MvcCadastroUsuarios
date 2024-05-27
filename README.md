@@ -5,12 +5,7 @@
 O Sistema de Gerenciamento, uma aplicação web em ASP.NET MVC, oferece uma solução abrangente para dados de usuários e contatos. Com o Entity Framework Core e SQL Server, garante manipulação eficiente e segura. Inclui um serviço de email para notificações e criptografia de senha para segurança. Sessões avançadas garantem experiência personalizada, adaptada às necessidades do usuário. Uma plataforma escalável para gerenciamento de dados, seja para contatos, perfis ou recuperação de senhas.
 
 
-## Documentação
-
-[Documentação](https://link-da-documentação)
-
-
-## Autores
+## Autor
 
 - [@Davi-Damartes](https://www.github.com/octokatherine)
 
