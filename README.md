@@ -17,7 +17,6 @@ O Sistema de Gerenciamento, uma aplicação web em ASP.NET MVC, oferece uma solu
 
 
 ## Demonstração
-
-https://github.com/Davi-Damartes/BlazorCafeteria/assets/167019873/4ede2bf8-811d-43ad-868d-a317d5e83cbb
+https://github.com/Davi-Damartes/MvcCadastroUsuarios/assets/167019873/705d2c1a-3823-41aa-86e3-38c60888b70b
 
 
