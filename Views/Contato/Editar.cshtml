@@ -4,7 +4,7 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Editar Contato</h1>
+    <h1 class="display-4">Editar Contato do (@Model.Nome)</h1>
 </div>
 
 <form asp-controller="Contato" asp-action="Alterar" method="post">
@@ -29,11 +29,8 @@
           @Html.ValidationMessageFor(model => model.Telefone)
    </div>
 
-    <div class="button-group">
-        <button type="submit" class="btn btn-primary btn-block">Alterar</button>
-    </div>
-    <br>
-    <div class="button-group">
-        <a class="btn btn-secondary btn-block" asp-controller="Contato" asp-action="Index" role="button">Voltar</a>
+    <div class="button-group ">
+        <button type="submit" class="btn btn-primary btn-block fs-4">Alterar</button>
+        <a class="btn btn-secondary btn-block fs-4" asp-controller="Contato" asp-action="Index" role="button">Voltar</a>
     </div>
 </form>
