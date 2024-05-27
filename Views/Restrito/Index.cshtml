@@ -1,0 +1,17 @@
+@{
+    Layout = "_LayoutDeslogado";
+    ViewData["Title"] = "Página Restrita";
+}
+
+<div class="text-center">
+    <p>Você não tem permissão para acessar essa funcionalidade.
+
+    <p>Clique em "Voltar" para ser redirecionado para a Página Principal :D</p>
+    <a asp-controller="Home" asp-action="Index">
+        <button type="button" class="btn btn-secondary btn-sm close-secondary" aria-label="Close">
+            Voltar
+        </button>
+    </a>
+
+    </p>
+</div>

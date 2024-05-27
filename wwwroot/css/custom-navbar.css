@@ -1,0 +1,25 @@
+/* Conteúdo do custom-navbar.css */
+
+.custom-navbar {
+    /* Adicione estilos personalizados aqui */
+    background-color: #f0f0f0; /* Exemplo de cor de fundo */
+    padding: 15px; /* Exemplo de preenchimento */
+    border-bottom: 1px solid #ccc; /* Exemplo de borda inferior */
+}
+
+.custom-navbar li {
+    /* Estilos para os itens da barra de navegação */
+    margin-right: 10px; /* Exemplo de margem direita entre os itens */
+}
+
+.custom-navbar a {
+    /* Estilos para os links na barra de navegação */
+    color: #130909; /* Exemplo de cor do texto */
+    font-weight: bold; /* Exemplo de peso da fonte */
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+.custom-navbar a:hover {
+    /* Estilos para os links na barra de navegação ao passar o mouse */
+    color: #ca4040; /* Cor do texto alterada no hover */
+}
